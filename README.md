@@ -9,6 +9,7 @@ Conceptos
 Referente
 
 Bouncy Bubbles — Processing
+https://processing.org/examples/bouncybubbles.html 
 Este ejemplo sirve como referente para el movimiento y las colisiones entre burbujas. Mi propuesta adapta esta idea incorporando un fondo degradado y cambios de color al chocar.
 
 Variaciones
