@@ -1,22 +1,22 @@
-Bouncy Bubbles
-El proyecto consiste en una animación digital realizada con Processing. Varias burbujas se mueven por la pantalla, rebotan contra los bordes y chocan entre sí, cambiando de color al entrar en contacto.
-El fondo contiene un degradado de rosa a azul que aporta color y profundidad a la composición.
+Proyecto: Colisiones y movimiento generativo
+El proyecto consiste en una animación digital realizada con Processing en la que diferentes elementos geométricos se desplazan por la pantalla, interactúan entre sí y generan composiciones visuales a través de su movimiento.
+
+Los elementos dejan estelas de colores que registran sus trayectorias, creando líneas continuas y composiciones abstractas. A través de diferentes variaciones, se experimenta con las colisiones, la velocidad, el grosor de los trazos y las formas geométricas, explorando distintas posibilidades del movimiento dentro de un espacio digital.
 
 Conceptos
-- Friction (Fricción): una fuerza que se opone al movimiento y hace que las burbujas pierdan velocidad.
-- Gravity (Gravedad): una fuerza que hace que las burbujas aceleren hacia abajo.
+
+- Collision (Colisión):** interacción entre dos elementos que entran en contacto y modifican su dirección de movimiento.
+- Motion (Movimiento):** desplazamiento de los elementos por la pantalla, generando diferentes recorridos y trayectorias.
 
 Referente
 
-Bouncy Bubbles — Processing
-https://processing.org/examples/bouncybubbles.html 
-Este ejemplo sirve como referente para el movimiento y las colisiones entre burbujas. Mi propuesta adapta esta idea incorporando un fondo degradado y cambios de color al chocar.
+Circle Collision with Swapping Velocities — Processing (https://processing.org/examples/circlecollision.html)
+Este ejemplo sirve como referente para explorar el movimiento y las colisiones entre elementos geométricos. Mi propuesta parte de este sistema de interacción entre círculos, pero lo transforma incorporando estelas de colores que registran sus recorridos. A partir de esta idea, desarrollo diferentes variaciones en las que experimento con la velocidad, la cantidad y el grosor de los trazos, así como con la sustitución de los círculos por cuadrados y movimientos geométricos basados en giros de 90 grados.
 
 Variaciones
-01. Burbujas en colisión: las burbujas se desplazan en diferentes direcciones, rebotan contra los bordes y cambian de color al chocar entre ellas.
-02. Burbujas flotantes: las burbujas ascienden lentamente, con pequeños movimientos laterales, y reaparecen en la parte inferior al salir de la pantalla.
-03. Burbujas atraídas: las burbujas se desplazan hacia un punto central invisible, modificando su trayectoria por efecto de una fuerza de atracción.
-Las tres variaciones exploran diferentes comportamientos del movimiento a partir del concepto de fuerza, manteniendo las burbujas y el degradado como elementos visuales comunes.
+01. Colisión de círculos:** dos círculos se desplazan por la pantalla, chocan entre sí y dejan una estela continua de colores que registra sus movimientos y genera una composición visual.
+02. Multiplicación de trazos:** se aumenta la cantidad de trazos, reduciendo su grosor y aumentando su velocidad. Esto genera una composición más densa, dinámica y llena de recorridos superpuestos.
+03. Movimiento geométrico:** se sustituyen los círculos por cuadrados que se desplazan siguiendo trayectorias rectas y giros de 90 grados, creando recorridos geométricos y composiciones lineales.
 
 Herramientas
 
